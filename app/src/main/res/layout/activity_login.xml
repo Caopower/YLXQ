@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bj"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.ylxq.activity.LoginActivity">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_launcher"
+        android:layout_marginTop="@dimen/dimen_60"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/mima2"
+        android:layout_marginTop="@dimen/dimen_50"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/yonghu"
+            android:layout_marginLeft="@dimen/dimen_20"
+            />
+
+        <EditText
+            android:id="@+id/et_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_15"
+            android:background="@null"
+            android:hint="请输入手机号码"
+            android:maxLength="11"
+            android:textColorHint="@color/home_botton_bgcolor"
+            android:textColor="@color/home_botton_bgcolor"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/mima2"
+        android:layout_marginTop="@dimen/dimen_15"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/mima"
+            android:layout_marginLeft="@dimen/dimen_20"
+            />
+
+        <EditText
+            android:id="@+id/et_userPsw"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_15"
+            android:background="@null"
+            android:hint="请输入密码"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:textColorHint="@color/home_botton_bgcolor"
+            android:textColor="@color/home_botton_bgcolor"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_btn_style"
+        android:layout_marginTop="@dimen/dimen_30"
+        android:text="立即登陆"
+        android:textSize="@dimen/text_size18"
+        android:textColor="#1787d2"
+        />
+
+    <RelativeLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dimen_20"
+        >
+
+        <TextView
+            android:id="@+id/tv_regist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="立即注册"
+            android:textColor="@color/home_botton_bgcolor"
+            android:textSize="@dimen/text_size14"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/tv_wangjiPsw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="忘记密码"
+            android:textColor="@color/home_botton_bgcolor"
+            android:textSize="@dimen/text_size14"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

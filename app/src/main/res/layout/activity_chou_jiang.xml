@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wheelSurfView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/ic_cj_bj"
+    tools:context="com.example.administrator.ylxq.activity.ChouJiangActivity">
+
+    <com.example.administrator.ylxq.utils.WheelSurfView
+        android:id="@+id/wl_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        wheelSurfView:typenum="-1"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:layout_marginLeft="@dimen/dimen_40"
+        android:layout_marginRight="@dimen/dimen_40"
+        android:layout_marginBottom="@dimen/dimen_20"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/liebiao__toubu"
+        android:layout_marginRight="@dimen/dimen_40"
+        android:layout_marginLeft="@dimen/dimen_40"
+        />
+
+    <ListView
+        android:id="@+id/lv_cj"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@mipmap/liebiao"
+        android:layout_marginRight="@dimen/dimen_40"
+        android:layout_marginLeft="@dimen/dimen_40"
+        />
+
+
+</LinearLayout>

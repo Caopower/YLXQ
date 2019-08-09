@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    tools:context="com.example.administrator.ylxq.activity.SettingActivity">
+
+    <include layout="@layout/toplayout"
+        android:id="@+id/ic_top"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/updatePsw"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:background="@color/home_botton_bgcolor"
+        android:layout_below="@id/ic_top"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size18"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_15"
+            android:text="修改密码"
+            android:textColor="@color/userName_color"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dimen_5"
+            />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/bt_tuichu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dimen_30"
+        android:text="退出登录"
+        android:textSize="@dimen/text_size20"
+        android:background="@drawable/zhuce_btn_style"
+        />
+
+</RelativeLayout>

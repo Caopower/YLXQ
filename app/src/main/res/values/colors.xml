@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="txt_gray_color">#7d7d7d</color>
+    <color name="text_color_a7a7a7">#a7a7a7</color>
+
+    <color name="userName_color">#2F2F2F</color>
+    <color name="line_f1f1f1">#F1F1F1</color>
+
+    <color name="line_f1f1f2">#8b8989</color>
+
+
+    <color name="color_0c0c0c">#0C0C0C</color>
+
+    <color name="color_CDCDCD">#CDCDCD</color>
+
+    <color name="color_4E92DC">#4E92DC</color>
+
+    <color name="userPhone_color">#B7B7B7</color>
+
+    <color name="heise_2D2E32">#2D2E32</color>
+
+    <color name="black">#000000</color>
+    <color name="color_1aac19">#35ac61</color>
+    <color name="text_999999">#999999</color>
+    <color name="bg_fcfcfc">#fcfcfc</color>
+
+    <color name="white">#f2f3f7</color>
+    <color name="home_botton_bgcolor">#ffffff</color>
+    <color name="app_bg_color">#F5F5F5</color>
+
+
+</resources>

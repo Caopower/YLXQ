@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/game_bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dimen_20"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cs3"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/dimen_10"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/lianzhu_yuansu"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="链元素:"
+                android:textColor="#51fcea"
+                android:textSize="@dimen/text_size16"
+                android:layout_marginLeft="@dimen/line1"
+                />
+
+            <TextView
+                android:id="@+id/tv_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0"
+                android:textColor="#51fcea"
+                android:textSize="@dimen/text_size16"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cs3"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/dimen_20"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/lianzhu_quanzhong"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="权重："
+                android:textColor="#fbc348"
+                android:textSize="@dimen/text_size16"
+                android:layout_marginLeft="@dimen/line1"
+                />
+
+            <TextView
+                android:id="@+id/tv_quanzhong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0"
+                android:textColor="#fbc348"
+                android:textSize="@dimen/text_size18"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.example.administrator.ylxq.utils.RandomFrameLayout
+        android:id="@+id/fl_random"
+        android:layout_width="match_parent"
+        android:layout_marginTop="180dp"
+        android:layout_height="214dp">
+
+        <TextView
+            android:id="@+id/tv_wait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal|center"
+            android:drawableTop="@mipmap/ic_wait_create"
+            android:visibility="gone"
+            android:drawablePadding="5dp"
+            android:text="正在生成中..."/>
+    </com.example.administrator.ylxq.utils.RandomFrameLayout>
+
+
+</LinearLayout>

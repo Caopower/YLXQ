@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="54dp"
+    android:background="#fcfcfc">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#fcfcfc"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#d6d6d6"
+            android:layout_alignParentTop="true"
+            >
+        </View>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="6dp"
+            android:id="@+id/tabIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_marginTop="2dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:src="@mipmap/gril"
+                />
+
+            <TextView
+                android:gravity="center"
+                android:id="@id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_gravity="center"
+                android:focusable="false"
+                android:text="sss"
+                android:textColor="@drawable/home_text_color"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/tabUnread"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_toRightOf="@id/tabIndicator"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/home_bottom_ico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        android:background="@mipmap/point1"
+        android:textColor="@color/bg_fcfcfc"
+        android:visibility="gone"
+        />
+
+</FrameLayout>

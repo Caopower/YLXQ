@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/home_botton_bgcolor"
+    tools:context="com.example.administrator.ylxq.activity.MoneyActivity">
+
+    <include layout="@layout/toplayout"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line1"
+        android:background="#000000"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:background="@color/heise_2D2E32"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总资产"
+            android:textColor="#67686C"
+            android:textSize="@dimen/text_size18"
+            android:layout_marginTop="@dimen/dimen_20"
+            android:layout_marginLeft="@dimen/dimen_15"
+            />
+
+        <TextView
+            android:id="@+id/tv_userMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:textColor="#E2E3E6"
+            android:textSize="@dimen/text_size25"
+            android:layout_marginLeft="@dimen/dimen_15"
+            android:layout_marginTop="@dimen/dimen_20"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv_moneys"
+        />
+
+
+</LinearLayout>

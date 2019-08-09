@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/jidi_bg"
+    android:overScrollMode="never"
+    android:persistentDrawingCache="none"
+    android:scrollbars="none"
+    tools:context="com.example.administrator.ylxq.activity.YingYongActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="310dp"
+            android:layout_marginRight="@dimen/dimen_30"
+            android:layout_marginLeft="@dimen/dimen_30"
+            android:gravity="center"
+            android:background="@mipmap/quanwang_info">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/tv_allQZ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/heise_2D2E32"
+                    android:textSize="@dimen/text_size18"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="全网总权重"
+                    android:textColor="@color/heise_2D2E32"
+                    android:textSize="@dimen/text_size14"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/tv_allLYS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/heise_2D2E32"
+                    android:textSize="@dimen/text_size18"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="链元素总数量"
+                    android:textColor="@color/heise_2D2E32"
+                    android:textSize="@dimen/text_size14"
+                    android:layout_marginTop="5dp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:orientation="horizontal"
+            android:layout_marginRight="@dimen/dimen_30"
+            android:layout_marginLeft="@dimen/dimen_30"
+            android:background="@mipmap/gongneng_bg"
+            >
+
+            <LinearLayout
+                android:id="@+id/ll_choujiangRoom"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dimen_15"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/choujiang"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="抽奖"
+                    android:layout_marginTop="@dimen/dimen_5"
+                    android:textSize="@dimen/text_size14"
+                    android:textColor="@color/heise_2D2E32"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_duihuanRoom"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dimen_15"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/duihuan"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="兑换"
+                    android:layout_marginTop="@dimen/dimen_5"
+                    android:textSize="@dimen/text_size14"
+                    android:textColor="@color/heise_2D2E32"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+

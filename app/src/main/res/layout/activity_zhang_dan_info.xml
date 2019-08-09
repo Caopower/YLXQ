@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/home_botton_bgcolor"
+    tools:context="com.example.administrator.ylxq.activity.ZhangDanInfoActivity">
+
+    <include layout="@layout/toplayout"/>
+    
+    <Spinner
+        android:id="@+id/sp_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50"
+        android:background="@color/app_bg_color"
+        ></Spinner>
+
+    <ListView
+        android:id="@+id/lv_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+    
+    
+</LinearLayout>

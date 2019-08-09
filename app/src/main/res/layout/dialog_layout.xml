@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/home_botton_bgcolor"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入验证码"
+        android:textSize="@dimen/text_size22"
+        android:textColor="#000000"
+        android:layout_marginTop="@dimen/dimen_15"
+        />
+
+    <EditText
+        android:id="@+id/et_inputyzm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_15"
+        android:layout_marginRight="@dimen/dimen_15"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:textSize="@dimen/text_size18"
+        android:textColor="#000000"
+        android:singleLine="true"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimen_15"
+    android:layout_marginTop="@dimen/dimen_15"
+    android:gravity="center_horizontal"
+    >
+    <Button
+        android:id="@+id/bt_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/regist_check1"
+        android:text="取消"
+        android:textSize="@dimen/text_size18"
+        android:textColor="@color/home_botton_bgcolor"
+        />
+
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/regist"
+        android:text="确 定"
+        android:textSize="@dimen/text_size18"
+        android:layout_marginLeft="@dimen/dimen_50"
+        android:textColor="@color/home_botton_bgcolor"
+        />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
